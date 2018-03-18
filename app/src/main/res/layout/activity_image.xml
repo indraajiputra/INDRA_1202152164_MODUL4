@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.indrapro.indra_1202152164_studycase4.image">
+
+    <EditText
+        android:id="@+id/linkgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="insert URL"
+        />
+
+    <Button
+        android:id="@+id/btnmencari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="find image" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="350dp"
+        android:layout_height="350dp" />
+</LinearLayout>
+
+
